@@ -16,7 +16,7 @@ st.markdown('大如果A校毕业的博士生，可以在B校找到教职，那�
 st.markdown(' 通过检索各个学校，各个学院的主页，获取教职工的简历（主要是博士学位取得学校），可以构建一个“博士——教职”网络，下图给出一个示例：从山东大学到清华大学的箭头和箭头上的5表示，山东大学有5个教职工的博士学位是清华大学授予的。')
 
 
-figure1 = io.imread('博士学位——教职网络.png')
+figure1 = io.imread('figure1.png')
 
 st.image(figure1, caption='博士学位-教职网络示意图', use_column_width=True)
 
